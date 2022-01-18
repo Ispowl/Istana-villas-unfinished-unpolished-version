@@ -1,0 +1,38 @@
+* { box-sizing:border-box; }
+
+body { 
+    background:#555;
+    font-family:"Helvetica", arial;
+    text-align:center; }
+
+figure {
+     display:inline-block;
+     width:500px;
+     height:350px;
+     margin:50px 10px;
+     text-align:left;background-color:
+     white;
+     }
+
+button{
+    font-style: normal;
+    font-weight: bold;
+    border: transparent;
+    border-radius: 25px;
+    height: 35px;
+    width:100px;
+    background-color: teal;
+    
+}
+
+label{
+    font-size: 18px;
+}
+
+input{
+    width: 300px;
+}
+
+#added{
+    visibility: hidden;
+}

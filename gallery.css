@@ -1,0 +1,64 @@
+
+.Lol{
+    height: 170px;
+    width: 170px;
+}
+.environment_li {
+    margin-top: 13px;
+    padding-top: 13px;
+    
+}
+
+.environment_li h4 {
+    border-bottom: 1px solid white;
+    padding: 8px;
+}
+
+.environment_li img {
+    border-radius: 25px;
+}
+
+.environment_li p {
+    margin-top: 10px;
+}
+ 
+#smoll{
+    height: 50px;
+    width: 50px;
+}
+
+
+#environment{
+    background-color: cyan;
+}
+
+#new{
+
+    margin-top: 0px;
+}
+
+#secert2{
+    visibility: hidden;
+}
+
+#pio{
+    width: 40px;
+    height: 40px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url("Important4.JPG");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.header{
+    background-color: black;
+    color: white;
+}
+

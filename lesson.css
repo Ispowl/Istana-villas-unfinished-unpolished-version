@@ -1,0 +1,52 @@
+#coach-div-basketball{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+    text-align: center;
+    width: 49%;
+    height: 100%;
+    float: left;
+}
+
+body{
+	
+    text-align: center;
+    background-image: url("Important4.JPG");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+} 
+.faces{
+    margin: 20px;
+    width: 200px;
+    height: 350px;
+}
+
+.sirsname{
+    margin: 10px;
+    margin-right: 30px;  
+}
+
+.courts{
+    width: 200px;
+    height: 150px;
+}
+.re{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+
+}
+
+#coach-div-tennis{
+    margin-right: 10px;
+    background-color: white;
+    text-align: center;
+    width: 49%;
+    float: right;  
+    height: 100%;
+}
+
+#coaches{
+    background-color: white;
+}

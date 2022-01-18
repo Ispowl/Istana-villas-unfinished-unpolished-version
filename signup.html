@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <title>Sign in</title>
+        <link rel="stylesheet" href="signup.css">
+        <script src="signup.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+        <script>
+            
+            var firebaseConfig = {
+              apiKey: "AIzaSyBte1qzde48F98apXyG3QGC9F5BVx_KYsI",
+              authDomain: "istanasignin.firebaseapp.com",
+              projectId: "istanasignin",
+              storageBucket: "istanasignin.appspot.com",
+              messagingSenderId: "1012384927098",
+              appId: "1:1012384927098:web:bdcf300b79aeb60a8f5ac3"
+            };
+            
+            firebase.initializeApp(firebaseConfig);
+
+            var ref = firebase.database().ref();       
+                                ref.on("value", function(snapshot){
+    output.innerHTML = JSON.stringify(snapshot.val(), null, 2);
+});
+  
+          </script>
+    </head>
+    <body>
+        <center>
+            <h1>You need to sign in before visiting the website</h1>
+        <figure>
+            <center>
+            <form>
+              <br>
+              
+              
+              <label>Username</label>
+              <h4 id="probwo"></h4>
+              <input type="text" id="user" >
+              <br>
+              <br>
+              <br>
+              <label>Your accouant password</label>
+              <h4 id="probwo3"></h4>
+              <input type="password" id="ypassword" >
+              <br>
+              <br>
+              <br>
+              <label>Password</label>
+              <h4 id="probwo2"></h4>
+              <input type="password" id="password" >
+              <br>
+              <br>
+              <br>
+              <button type="button" onclick="wrongorright()">Sign in</button>
+            </form>
+            </center>
+            </figure>
+            <br>
+            <br>
+            <br>
+       <a id="don"href="">Don't have a username? Click here to get one.</a>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+            <section id="secert1">
+                <h3>You unlocked the secert! spaceeeeeeeeeeeeeeeeeeeeeeeee</h3>
+                <iframe width="956" height="538" src="https://www.youtube.com/embed/a4cEHJdxmmk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+           
+
+            </center>
+    </body>
+</html>

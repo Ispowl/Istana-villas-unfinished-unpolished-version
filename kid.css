@@ -1,0 +1,22 @@
+body{
+  background-image: url('Fur.jfif');  
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#wow{
+  font-family: 'Yuji Boku', serif;
+}
+#pio{
+  width: 40px;
+  height: 30px;
+}
+
+
+#gorupchot{
+  margin-left: 85%;
+  margin-top: 50% ;
+  position: sticky;
+  z-index: 0;
+}
+
